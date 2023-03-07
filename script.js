@@ -17,3 +17,5 @@ if (markHigherBMI == true) {
     `John's BMI is larger. John's BMI ${BMIJohn} is higher than mark's ${BMIMark}`
   );
 }
+
+asdfasdfasdfasdfasdf;
