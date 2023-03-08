@@ -25,7 +25,7 @@
 // const markHigherBMI = BMIMark > BMIJohn;
 // console.log(BMIMark, BMIJohn, markHigherBMI);
 // --------------------------------------------------
-
+// Coding Challenge #2
 // Use the BMI example from Challenge #1, and the code you already wrote, and
 // improve it.
 // Your tasks:
@@ -45,7 +45,7 @@
 //   );
 // }
 // --------------------------------------------------------
-
+// Coding Challenge #3
 // There are two gymnastics teams, Dolphins and Koalas. They compete against each
 // other 3 times. The winner with the highest average score wins a trophy!
 // Your tasks:
@@ -94,8 +94,51 @@
 // } else {
 //   console.log("no one won");
 // }
-// // ---------------------------------------------------------
+// ---------------------------------------------------
+// const day = "tuesday";
+// switch (day) {
+//   case "monday":
+//     console.log("plan course structure");
+//     console.log("go to coding meetup");
+//     break;
+//   case "tuesday":
+//     console.log("prepare theory class");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log("write code examples");
+//     break;
+//   case "friday":
+//     console.log("record videos");
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     console.log("enjoy the weekend");
+//     break;
+//   default:
+//     console.log("not a valid day");
+// }
+// const day = "saturday";
+// if (day === "monday") {
+//   console.log("plan course structure");
+//   console.log("go to coding meetup");
+// } else if (day === "tuesday") {
+//   console.log("prepare theory class");
+// } else if (day === "wednesday" || day === "thursday") {
+//   console.log("write code examples");
+// } else if (day === "friday") {
+//   console.log("record videos");
+// } else if (day === "saturday" || day === "sunday") {
+//   console.log("enjoy the weekend");
+// // } else {
+// //   console.log("not a valid day");
+// // }
+// const age = 15;
+// const drink = age >= 18 ? "wine💖" : "water🎐";
+// console.log(drink);
+// console.log(`I like to drink ${age >= 18 ? "wine🎈" : "water🎐"}`);
 
+// Coding Challenge #4
 // Steven wants to build a very simple tip calculator for whenever he goes eating in a
 // restaurant. In his country, it's usual to tip 15% if the bill value is between 50 and
 // 300. If the value is different, the tip is 20%.
@@ -112,3 +155,11 @@
 // Hints:
 // § To calculate 20% of a value, simply multiply it by 20/100 = 0.2
 // § Value X is between 50 and 300, if it's >= 50 && <= 300
+
+// const bill = 275;
+// var tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// console.log(
+//   `the bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`
+// );
+// ------------------------------------------------------------
+// -----------------------------------------------------------------
