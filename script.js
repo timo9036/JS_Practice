@@ -1,4 +1,15 @@
 "use strict";
+// // function declaration
+// function calcAge(birthYear) {
+//   return 2037 - birthYear;
+// }
+// //function expression
+// const calcAge = Function (birthYear) {
+//   return 2037 - birthYear;
+// }
+// //arrow function
+// const calcAge = birthYear => 2037 - birthYear;
+// --------------------------------------------
 // Coding Challenge #1
 // Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new
 // gymnastics discipline, which works differently.
@@ -23,4 +34,25 @@
 // § To calculate average of 3 values, add them all together and divide by 3
 // § To check if number A is at least double number B, check for A >= 2 * B.
 // Apply this to the team's average scores �
-asdfasdfasdfasdf;
+// const calcAverage = (a, b, c) => (a + b + c) / 3;
+
+// let scoreDolphins = calcAverage(44, 23, 71);
+// let scoreKoalas = calcAverage(65, 54, 49);
+// console.log(scoreDolphins, scoreKoalas);
+
+// const checkWinner = function (avgDolphins, avgKoalas) {
+//   if (avgDolphins >= avgKoalas * 2) {
+//     console.log(`Dolphins win ${scoreDolphins} vs. ${scoreKoalas}`);
+//   } else if (avgKoalas >= avgDolphins * 2) {
+//     console.log(`Koalas win ${scoreKoalas} vs. ${scoreDolphins}`);
+//   } else {
+//     console.log(`no one wins...`);
+//   }
+// };
+// checkWinner(scoreDolphins, scoreDolphins);
+
+// scoreDolphins = calcAverage(85, 54, 41);
+// scoreKoalas = calcAverage(23, 34, 27);
+// console.log(scoreDolphins, scoreKoalas);
+// checkWinner(scoreDolphins, scoreDolphins);
+// -------------------------------------------------
