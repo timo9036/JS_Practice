@@ -70,5 +70,3 @@ const ages = [
   calcAge(years[years.lenth - 1]),
 ];
 asdfasdfasdf;
-asdfasdf;
-asdfasdfasd;
