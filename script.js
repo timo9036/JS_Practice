@@ -56,17 +56,29 @@
 // console.log(scoreDolphins, scoreKoalas);
 // checkWinner(scoreDolphins, scoreDolphins);
 // -------------------------------------------------
-const calcAge = function (birthYear) {
-  return 2037 - birthYear;
-};
-const years = [1990, 1967, 2002, 2010, 2018];
+// const calcAge = function (birthYear) {
+//   return 2037 - birthYear;
+// };
+// const years = [1990, 1967, 2002, 2010, 2018];
 
-const age1 = calcAge(years[0]);
-const age2 = calcAge(years[1]);
-const age3 = calcAge(years[years.lenth - 1]);
-const ages = [
-  calcAge(years[0]),
-  calcAge(years[1]),
-  calcAge(years[years.lenth - 1]),
-];
-asdfasdfasdf;
+// const age1 = calcAge(years[0]);
+// const age2 = calcAge(years[1]);
+// const age3 = calcAge(years[years.lenth - 1]);
+// const ages = [
+//   calcAge(years[0]),
+//   calcAge(years[1]),
+//   calcAge(years[years.lenth - 1]),
+// ];
+
+// const friends = ["michael", "steven", "peter"];
+// //add elements
+// friends.push("jay"); //add last
+// friends.unshift("john"); //add first
+// //remove elements
+// friends.pop; //remove last
+// friends.shift(friends); //remove first
+// console.log(friends.indexOf("steven")); //location of steven
+// console.log(friends.includes("bob")); //include or not
+// if (friends.ioncludes("peter")) {
+//   console.log("you have a friend name peter");
+// }
