@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 // // function declaration
 // function calcAge(birthYear) {
 //   return 2037 - birthYear;
@@ -204,11 +204,11 @@
 // }
 
 const jonas = [
-  "jonas",
-  "schmedtmann",
+  'jonas',
+  'schmedtmann',
   2037 - 1991,
-  "teacher",
-  ["michael", "peter", "steven"],
+  'teacher',
+  ['michael', 'peter', 'steven'],
 ];
 for (let i = 0; i < jonas.length; i++) {
   //reading from jonas array
@@ -228,13 +228,13 @@ for (let i = 0; i < years.length; i++) {
 }
 console.log(ages);
 //continue and break
-console.log("-----only strings ----");
+console.log('-----only strings ----');
 for (let i = 0; i < jonas.length; i++) {
-  if (typeof jonas[i] !== "string") continue;
+  if (typeof jonas[i] !== 'string') continue;
   console.log(jonas[i], typeof jonas[i]);
 }
-console.log("-----break with number ----");
+console.log('-----break with number ----');
 for (let i = 0; i < jonas.length; i++) {
-  if (typeof jonas[i] === "number") break;
+  if (typeof jonas[i] === 'number') break;
   console.log(jonas[i], typeof jonas[i]);
 }
