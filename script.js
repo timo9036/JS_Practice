@@ -171,4 +171,70 @@
 // respective BMI. Example: "John's BMI (28.3) is higher than Mark's (23.9)!"
 // Test data: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m
 // tall
-asdfasdf;
+// const mark = {
+//   fullName : "mark miller"
+//   mass:78,
+//   height:1.69,
+//   calcBMI = function(){
+//     this.bmi = this.mass/ this.height **2;
+//     return this.bmi;
+//   }
+// };
+// const john = {
+//   fullName : "john smith"
+//   mass:92,
+//   height:1.95
+//   calcBMI = function(){
+//     this.bmi = this.mass/this.height **2;
+//     return this.bmi;
+//   }
+// }
+// mark.calcBMI();
+// john.calcBMI();
+// console.log(mark.bmi, john.bmi);
+// if (mark.bmi > john.bmi) {
+//   console.log(`${mark.fullName}'s BMI ${mark.bmi} is higher than ${john.fullName}'s ${john.bmi}`)
+// }else if (mark.bmi < john.bmi) {
+//   console.log(`${john.fullName}'s BMI ${john.bmi} is higher than ${mark.fullName}'s ${mark.bmi}`)
+// }
+// ---------------------------------------------------------
+//for look keeps running while conditions is true
+// for (let rep = 1; rep <= 10; rep++) {
+//   console.log(`lifting weights repetition ${rep}`);
+// }
+
+const jonas = [
+  "jonas",
+  "schmedtmann",
+  2037 - 1991,
+  "teacher",
+  ["michael", "peter", "steven"],
+];
+for (let i = 0; i < jonas.length; i++) {
+  //reading from jonas array
+  console.log(jonas[i], typeof jonas[i]);
+
+  //filling types array
+  // types[i] = typeof jonas[i];
+  types.push(typeof jonas[i]);
+}
+console.log(types);
+
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  ages.push(2037 - years[i]);
+}
+console.log(ages);
+//continue and break
+console.log("-----only strings ----");
+for (let i = 0; i < jonas.length; i++) {
+  if (typeof jonas[i] !== "string") continue;
+  console.log(jonas[i], typeof jonas[i]);
+}
+console.log("-----break with number ----");
+for (let i = 0; i < jonas.length; i++) {
+  if (typeof jonas[i] === "number") break;
+  console.log(jonas[i], typeof jonas[i]);
+}
