@@ -157,6 +157,7 @@
 // // console.log(jonas[`calcAge`](1991)); or
 // console.log(jonas.getSummary)
 // -----------------------------------------------------
+// Coding Challenge #3
 // Let's go back to Mark and John comparing their BMIs! This time, let's use objects to
 // implement the calculations! Remember: BMI = mass / height ** 2 = mass
 // / (height * height) (mass in kg and height in meter)
@@ -170,3 +171,4 @@
 // respective BMI. Example: "John's BMI (28.3) is higher than Mark's (23.9)!"
 // Test data: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m
 // tall
+asdfasdf;
